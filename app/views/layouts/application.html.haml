@@ -1,0 +1,15 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %meta{:charset => "UTF-8"}/
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+    %title Quankefu
+    = csrf_meta_tags
+    %link{:href => "https://fonts.googleapis.com/css?family=Libre+Baskerville:400,600|Poppins:400,500,700", :rel => "stylesheet", :type => "text/css"}/
+    /[if lt IE 9]
+      <script src="js/html5shiv.js"></script>
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload'
+    = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
+
+  %body
+    = yield
