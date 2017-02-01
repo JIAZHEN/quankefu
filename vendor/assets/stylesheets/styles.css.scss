@@ -614,7 +614,7 @@ section {
    2.1 SECTION: HOME PAGE
 -----------------------------------------*/
 .home {
-  background: url(backgrounds/1.jpg) no-repeat top;
+  background: asset-url("backgrounds/1.jpg") no-repeat top;
   background-size: cover;
 }
 .home .color-overlay {
@@ -1028,7 +1028,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.7 SECTION: STATS
 -----------------------------------------*/
 .stats {
-  background: url(backgrounds/3.jpg) no-repeat top;
+  background: asset-url("backgrounds/3.jpg") no-repeat top;
   background-size: cover;
 }
 .stats .color-overlay {
@@ -1466,7 +1466,7 @@ figure.effect-zoe:hover p.icon-links a:first-child {
    2.14 SECTION: FOOTER
 -----------------------------------------*/
 .get-in-touch {
-  background: url(backgrounds/6.jpg) no-repeat top;
+  background: asset-url("backgrounds/6.jpg") no-repeat top;
   background-size: cover;
   padding-top: 114px;
   padding-bottom: 150px;
