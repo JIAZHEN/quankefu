@@ -30,25 +30,15 @@
             / NAVIGATION LINK
             %ul#internal-scroll.nav.navbar-nav.navbar-right.main-navigation
               %li
-                %a{:href => "#home"} Home
+                %a{:href => "#home"} 首页
               %li
-                %a{:href => "#section1"} About
+                %a{:href => "#about"} 关于
               %li
-                %a{:href => "#section2"} Services
+                %a{:href => "#services"} 服务
               %li
-                %a{:href => "#section3"} Portfolio
+                %a{:href => "#team"} 团队
               %li
-                %a{:href => "#section4"} Team
-              %li
-                %a{:href => "#section5"} Process
-              %li
-                %a{:href => "#section6"} Pricing
-              %li
-                %a{:href => "#section7"} Testimonials
-              %li
-                %a{:href => "#section9"} Blog
-              %li
-                %a{:href => "#section10"} Contact
+                %a{:href => "#contact"} 联系
               / <li><a href="http://example.com" class="external">External Link Example</a></li>
         / /END CONTAINER
       / /END NAIVATION
@@ -56,11 +46,11 @@
         .row
           .col-lg-10.col-lg-offset-1.col-md-12
             / INTRO HEADING
-            %h1.intro.white-text.text-center We design things with love and passion.
+            %h1.intro.white-text.text-center 全心服务，为顾客的幸福而幸福。
             / CALL TO ACTION
             .cta.smooth-scroll
-              %a.btn.btn-default.standard-button.red-button{:href => "#section3"} Our Works
-              %a.btn.btn-default.standard-button.green-button{:href => "#section2"} Services
+              %a.btn.btn-default.standard-button.red-button{:href => "#team"} 团队
+              %a.btn.btn-default.standard-button.green-button{:href => "#services"} 服务
         .row.text-center
           / 3 FEATURES ON HOMEPAGE
           .home-features
@@ -70,27 +60,27 @@
                 .icon.green-text
                   %span.icon.icon-money-regular
                   / ICON
-                %h6.green-text.uppercase Fixed Price Projects
+                %h6.green-text.uppercase 价格最优惠
             / SINGLE FEATURE
             .col-md-4.col-sm-4
               .single-feature
                 .icon.purple-text
                   %span.icon.icon-clock-regular
                   / ICON
-                %h6.purple-text.uppercase Receive On Time
+                %h6.purple-text.uppercase 送货最及时
             / SINGLE FEATURE
             .col-md-4.col-sm-4
               .single-feature
                 .icon.yellow-text
                   %span.icon.icon-happy-smiley-streamline
                   / ICON
-                %h6.yellow-text.uppercase Satisfaction Guranteed
+                %h6.yellow-text.uppercase 满意度保证
         / END OF 3 FEATURES
   /
     \=========================
     SECTION: ABOUT US
     \==============================
-  %section#section1.about-us
+  %section#about.about-us
     .container
       .row
         / FEATURED IMAGE AREA
@@ -107,13 +97,13 @@
               .section-number
                 01
               / SECTION HEADING
-              %h2.section-heading.text-left About Us.
+              %h2.section-heading.text-left 关于我们。
               / PARAGRAPH
               %p.text-left
-                Analytics release series A financing launch party interaction design android angel investor. Vesting period social media sales conversion launch party rockstar incubator customer social proof graphical user interface technology supply chain. Non-disclosure agreement rockstar creative partner network launch party social proof paradigm shift long tail influencer.
+                玉林市全客福商贸有限责任公司是一家集乳制品、保健品、糖果、休闲食品、日化洗涤系列、品牌高档月饼为一体的专营公司。
                 %br/
                 %br/
-                Monetization validation success. Seed round channels product management. Customer non-disclosure agreement strategy android growth hacking ramen buyer.
+                创建于 1997 年，是广西玉林地区最专业的综合供应商。二十年来，一直以便捷、诚信的服务，并结合互联网高新科技，为广大顾客和合作伙伴提供愉悦的批发零售体验！
             .four-lines
               .line.red-line-bottom
               .line.green-line-bottom
@@ -123,16 +113,16 @@
     \=========================
     SECTION: SERVICES
     \==============================
-  %section#section2.our-focus.bgcolor-2
+  %section#services.our-focus.bgcolor-2
     .container
       / SECTION NUMBER
       .section-number.centered-number
         02
       / SECTION HEADER
       .section-header
-        %h2 Our Focus.
+        %h2 我们的服务
         .sub-heading
-          We understand your requirement and provide quality works.
+          我们了解您的需求并提供品质服务。
       .row.focuses
         / SINGLE FOCUS COLUMN
         .col-lg-3.col-sm-6.col-xs-12
@@ -141,10 +131,10 @@
             .icon.red-text
               %span.icon.icon-basic-postcard-multiple
             / HEADING
-            %h5 Web Design
+            %h5 品牌经销
             / DETAILS
             %p
-              Analytics release series A financing launch party interaction design android angel investor.
+              二十年经销商经验，广阔且高效的销售渠道。
         / SINGLE FOCUS COLUMN
         .col-lg-3.col-sm-6.col-xs-12
           .single-focus.white-bg.diffuse-shadow.green-line-bottom.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
@@ -152,10 +142,10 @@
             .icon.green-text
               %span.icon.icon-basic-map
             / HEADING
-            %h5 UX Design
+            %h5 货运配送
             / DETAILS
             %p
-              Analytics release series A financing launch party interaction design android angel investor.
+              玉林周边地区货运配送，快速准确。
         / SINGLE FOCUS COLUMN
         .col-lg-3.col-sm-6.col-xs-12
           .single-focus.white-bg.diffuse-shadow.purple-line-bottom.wow.fadeInDown{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
@@ -163,10 +153,10 @@
             .icon.purple-text
               %span.icon.icon-camera-regular
             / HEADING
-            %h5 Photogrpahy
+            %h5 经验指导
             / DETAILS
             %p
-              Analytics release series A financing launch party interaction design android angel investor.
+              与广大新老经销商分享经验指导，学习互助。
         / SINGLE FOCUS COLUMN
         .col-lg-3.col-sm-6.col-xs-12
           .single-focus.white-bg.diffuse-shadow.yellow-line-bottom.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
@@ -174,265 +164,60 @@
             .icon.yellow-text
               %span.icon.icon-unie16d
             / HEADING
-            %h5 App Development
+            %h5 合作共赢
             / DETAILS
             %p
-              Analytics release series A financing launch party interaction design android angel investor.
+              为各地超市和终端供货，为厂家提升销量
   /
     \=========================
-    SECTION: VIDEO SECTION
+    SECTION: TEAM
     \==============================
-  %section.video-play.fixed-bg
-    .color-overlay
-      / HEADING
-      %h3.white-text.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"} Explore Our Awesomeness
-      #video-expand.row.collapse
-        .col-md-8.col-md-offset-2
-          .embed-responsive.embed-responsive-16by9
-            / EMBED VIDEO
-            %iframe.embed-responsive-item{:allowfullscreen => "", :frameborder => "0", :height => "315", :src => "https://www.youtube.com/embed/VjbGg-VuqbU?rel=0&controls=1&showinfo=0&autoplay=0", :width => "560"}
-            / KEEP &autoplay="0" AT THE END
-      / PLAY BUTTON
-      %a.play-button{"data-toggle" => "collapse", :href => "#video-expand"}
-        %span.icon.icon-music-play-button
-      / TEXT
-      .play-text.text.white-text.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-        %span.click-play.show Click to play the video
-  /
-    \=========================
-    SECTION: PORTFOLIO
-    \==============================
-  %section#section3.portfolio.white-bg
+  %section#team.team.bgcolor-2
     .container
       / SECTION NUMBER
       .section-number.centered-number
         03
       / SECTION HEADER
       .section-header
-        %h2 Portfolio.
+        %h2 领导团队
         .sub-heading
-          We understand your requirement and provide quality works.
-      .row
-        / PROJECT LOADING ICON
-        #loader
-          .loader-icon
-            .loader
-              %svg.circular{:viewbox => "25 25 50 50"}
-                %circle.path{:cx => "50", :cy => "50", :fill => "none", :r => "20", "stroke-miterlimit" => "10", "stroke-width" => "3"}
-        / PROJECTS
-        #portfolio-list.col-lg-12
-          .portfolio-items.grid
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/1.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInDown{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/2.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/3.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInLeft{"data-wow-delay" => "0.30s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/5.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/4.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInRight{"data-wow-delay" => "0.30s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/6.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInLeft{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/7.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInUp{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/8.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-            / SINGLE PROJECT
-            %figure.effect-zoe.wow.fadeInRight{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              / PROJECT IMAGE and LINK
-              %a.more{:href => "project1.html", :title => "Click to view details"}
-                %img{:alt => "", :src => image_path("projects/9.jpg")}/
-                %p.description
-                  %span.icon.icon-plus
-              %figcaption
-                .four-lines
-                  .line.red-line-bottom
-                  .line.green-line-bottom
-                  .line.purple-line-bottom
-                  .line.yellow-line-bottom
-                .caption-text
-                  %h6.dark-text Project One
-                  / PROJECT TITLE
-        / LOADED PROJECT WILL SHOW HERE
-        #loaded-content
-        / BACK TO PORTFOLIO BUTTON ON LOADED PROJECT
-        %a#back-button.back-button.btn.btn-default.standard-button.red-button{:href => "#"}
-          %span.icon.icon-arrow-left
-          Go Back
-  /
-    \=========================
-    SECTION: TEAM
-    \==============================
-  %section#section4.team.bgcolor-2
-    .container
-      / SECTION NUMBER
-      .section-number.centered-number
-        04
-      / SECTION HEADER
-      .section-header
-        %h2 Our Team.
-        .sub-heading
-          We understand your requirement and provide quality works.
+          因为专业，所以专注
       .row
         / TEAM MEMBER LIST
         .member-list
           / SINGLE MEMBER
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12
             .single-member.red-line-bottom.diffuse-shadow.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
               .member-pic.red-gradient-overlay
                 .gradient
-                  %img{:alt => "", :src => image_path("team-members/1.jpg")}/
+                  %img{:alt => "", :src => image_path("team-members/founder.jpg")}/
                   / MEMBER IMAGE
-              %h6.red-text Michael Schmitt
+              %h6.red-text 谢承全
               / MEMBER NAME
               .extra-small-text
-                Founder & CEO
+                创始人 & 玉林供应商协会会长
           / SINGLE MEMBER
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            .single-member.green-line-bottom.diffuse-shadow.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .member-pic.green-gradient-overlay
-                .gradient
-                  %img{:alt => "", :src => image_path("team-members/2.jpg")}/
-                  / MEMBER IMAGE
-              %h6.green-text Michael Schmitt
-              / MEMBER NAME
-              .extra-small-text
-                Founder & CEO
-          / SINGLE MEMBER
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12
             .single-member.purple-line-bottom.diffuse-shadow.wow.fadeInDown{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
               .member-pic.purple-gradient-overlay
                 .gradient
-                  %img{:alt => "", :src => image_path("team-members/3.jpg")}/
+                  %img{:alt => "", :src => image_path("team-members/joe.jpg")}/
                   / MEMBER IMAGE
-              %h6.purple-text Michael Schmitt
+              %h6.purple-text Joe
               / MEMBER NAME
               .extra-small-text
-                Founder & CEO
+                英国高级软件工程师
           / SINGLE MEMBER
-          .col-lg-3.col-md-3.col-sm-6.col-xs-12
-            .single-member.yellow-line-bottom.diffuse-shadow.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .member-pic.yellow-gradient-overlay
+          .col-lg-4.col-md-4.col-sm-6.col-xs-12
+            .single-member.green-line-bottom.diffuse-shadow.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
+              .member-pic.green-gradient-overlay
                 .gradient
-                  %img{:alt => "", :src => image_path("team-members/4.jpg")}/
+                  %img{:alt => "", :src => image_path("team-members/cecilia.jpg")}/
                   / MEMBER IMAGE
-              %h6.yellow-text Michael Schmitt
+              %h6.green-text Cecilia Xie
               / MEMBER NAME
               .extra-small-text
-                Founder & CEO
+                香港首席运营官
   /
     \=========================
     SECTION: STATS
@@ -442,516 +227,48 @@
       .container
         .row
           / STAT
-          .col-lg-3.col-md-3.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
+          .col-lg-4.col-md-4.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
             .stats-icon.red-text
-              %span.icon.icon-graph-regular
-            %h5.white-text 12,458+
+              %span.icon.icon-box-regular
+            %h5.white-text 1,000+
             .stats-text
-              Projects Completed
+              高质商品
             .bottom-icon.red-text
               %span.icon.icon-circle-slelected
           / STAT
-          .col-lg-3.col-md-3.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.30s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
+          .col-lg-4.col-md-4.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.30s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
             .stats-icon.green-text
               %span.icon.icon-add-user-regular
-            %h5.white-text 1,796+
+            %h5.white-text 20+
             .stats-text
-              Satisfied Clients
+              合作伙伴
             .bottom-icon.green-text
               %span.icon.icon-circle-slelected
           / STAT
-          .col-lg-3.col-md-3.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
+          .col-lg-4.col-md-4.col-sm-6.wow.fadeInUp{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
             .stats-icon.purple-text
               %span.icon.icon-like
-            %h5.white-text 1,000+
+            %h5.white-text 2,000+
             .stats-text
-              Positive Feedbacks
+              满意好评
             .bottom-icon.purple-text
               %span.icon.icon-circle-slelected
-          / STAT
-          .col-lg-3.col-md-3.col-sm-6.wow.fadeInUp{"data-wow-delay" => "1s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            .stats-icon.yellow-text
-              %span.icon.icon-gift-regular
-            %h5.white-text 1,500+
-            .stats-text
-              Freebies Released
-            .bottom-icon.yellow-text
-              %span.icon.icon-circle-slelected
-  /
-    \=========================
-    SECTION: WORK STEPS
-    \==============================
-  %section#section5.work-steps
-    .container
-      / SECTION NUMBER
-      .section-number.centered-number
-        05
-      / SECTION HEADER
-      .section-header
-        %h2 Work Steps.
-        .sub-heading
-          We understand your requirement and provide quality works.
-      .row.steps
-        .col-lg-6.col-lg-offset-3
-          / STEP 1
-          .step.step-1-image.clearfix
-            .step-box-left.diffuse-shadow.red-line-bottom.white-bg.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .step-number
-                01
-              / STEP NUMBER
-              .content-area
-                %h4.text-left Project Understanding
-                %p.text-left
-                  Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
-          / STEP 2
-          .step.step-2-image.clearfix
-            .step-box-right.diffuse-shadow.green-line-bottom.white-bg.wow.fadeInRight{"data-wow-delay" => "0.25s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .step-number
-                02
-              / STEP NUMBER
-              .content-area
-                %h4.text-left Research & Planning
-                %p.text-left
-                  Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
-          / STEP 3
-          .step.step-3-image.clearfix
-            .step-box-left.diffuse-shadow.purple-line-bottom.white-bg.wow.fadeInLeft{"data-wow-delay" => "0.35s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .step-number
-                03
-              / STEP NUMBER
-              .content-area
-                %h4.text-left Wireframe & Design
-                %p.text-left
-                  Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
-          / STEP 2
-          .step.step-4-image.clearfix
-            .step-box-right.diffuse-shadow.yellow-line-bottom.white-bg.wow.fadeInRight{"data-wow-delay" => "0.45s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-              .step-number
-                04
-              / STEP NUMBER
-              .content-area
-                %h4.text-left Development
-                %p.text-left
-                  Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor accelerator.
-  /
-    \=========================
-    SECTION: PRICING
-    \==============================
-  %section#section6.pricing.bgcolor-2
-    .container
-      / SECTION NUMBER
-      .section-number.centered-number
-        06
-      / SECTION HEADER
-      .section-header
-        %h2 Pricing Table.
-        .sub-heading
-          We understand your requirement and provide quality works.
-      .row.packages
-        / SINGLE PACKAGE
-        .col-lg-4.col-md-4
-          .single-package.green-line-top.white-bg.diffuse-shadow.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            %h5 Starter
-            .price-circle-green
-              %h4.white-text $125
-              / PRICE
-              .extra-small-text.white-text
-                Per Month
-            %ul.feature-list
-              %li
-                %span.strong 800GB
-                Online Storage
-              %li
-                %span.strong 20
-                Files Per Day
-              %li
-                %span.strong 2TB
-                Monthly Bandwidth
-              %li
-                %span.icon.icon-icon-check
-                Secure Platform
-              %li
-                %span.icon.icon-icon-check
-                Fast & Reliable
-              %li
-                %span.icon.icon-icon-check
-                24/7 Customer Support
-            %a.btn.btn-default.standard-button.green-outline{:href => ""} Get Started
-        / SINGLE PACKAGE
-        .col-lg-4.col-md-4
-          .single-package.red-line-top.white-bg.diffuse-shadow.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            %h5 Starter
-            .price-circle-red
-              %h4.white-text $125
-              / PRICE
-              .extra-small-text.white-text
-                Per Month
-            %ul.feature-list
-              %li
-                %span.strong 800GB
-                Online Storage
-              %li
-                %span.strong 20
-                Files Per Day
-              %li
-                %span.strong 2TB
-                Monthly Bandwidth
-              %li
-                %span.icon.icon-icon-check
-                Secure Platform
-              %li
-                %span.icon.icon-icon-check
-                Fast & Reliable
-              %li
-                %span.icon.icon-icon-check
-                24/7 Customer Support
-            %a.btn.btn-default.standard-button.red-button{:href => ""} Get Started
-        / SINGLE PACKAGE
-        .col-lg-4.col-md-4
-          .single-package.purple-line-top.white-bg.diffuse-shadow.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            %h5 Starter
-            .price-circle-purple
-              %h4.white-text $125
-              / PRICE
-              .extra-small-text.white-text
-                Per Month
-            %ul.feature-list
-              %li
-                %span.strong 800GB
-                Online Storage
-              %li
-                %span.strong 20
-                Files Per Day
-              %li
-                %span.strong 2TB
-                Monthly Bandwidth
-              %li
-                %span.icon.icon-icon-check
-                Secure Platform
-              %li
-                %span.icon.icon-icon-check
-                Fast & Reliable
-              %li
-                %span.icon.icon-icon-check
-                24/7 Customer Support
-            %a.btn.btn-default.standard-button.purple-outline{:href => ""} Get Started
-  /
-    \=========================
-    SECTION: TESTIMONIALS
-    \==============================
-  %section#section7.testimonials.fixed-bg
-    .color-overlay
-      .container
-        / SECTION NUMBER
-        .section-number.centered-number
-          07
-        / SECTION HEADER
-        .section-header
-          %h2.white-text Testimonials.
-          .sub-heading.white-text
-            We understand your requirement and provide quality works.
-        #feedbacks.owl-carousel.owl-theme
-          / START FIRST FEEDBACK
-          .row
-            .single-feedback.clearfix
-              / CLIENT IMAGE FOR LARGE SCREEN
-              .col-lg-4.visible-lg
-                .client-image.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-                  %img{:alt => "", :src => image_path("feedbacks/client-1.jpg")}/
-                  .image-border
-              .col-lg-8
-                .feedback-content.white-bg.clearfix
-                  .q-sign.top
-                    “
-                  %blockquote.clearfix
-                    %p.text-left
-                      Deployment ownership non-disclosure agreement vesting period crowdfunding success influencer partnership equity series A financing network effects user experience crowdsource. Burn rate stock bootstrapping direct mailing release client traction creative facebook monetization crowdfunding rockstar.
-                    %cite.pull-left.text-left
-                      / CLIENT IMAGE FOR SMALL SCREEN
-                      .client-image.hidden-lg
-                        %img{:alt => "", :src => image_path("feedbacks/client-1.jpg")}/
-                      .client-details
-                        .signature
-                          %img{:alt => "", :src => image_path("feedbacks/signature-1.png")}/
-                        %h6.dark-text Melina Albrecht
-                        .extra-small-text
-                          Founder, TingTong
-                  .q-sign.bottom
-                    ”
-                  .four-lines
-                    .line.red-line-bottom
-                    .line.green-line-bottom
-                    .line.purple-line-bottom
-                    .line.yellow-line-bottom
-          / END FIRST FEEDBACK
-          / START SECOND FEEDBACK
-          .row
-            .single-feedback.clearfix
-              / CLIENT IMAGE FOR LARGE SCREEN
-              .col-lg-4.visible-lg
-                .client-image.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-                  %img{:alt => "", :src => image_path("feedbacks/client-2.jpg")}/
-                  .image-border
-              .col-lg-8
-                .feedback-content.white-bg.clearfix
-                  .q-sign.top
-                    “
-                  %blockquote.clearfix
-                    %p.text-left
-                      Deployment ownership non-disclosure agreement vesting period crowdfunding success influencer partnership equity series A financing network effects user experience crowdsource. Burn rate stock bootstrapping direct mailing release client traction creative facebook monetization crowdfunding rockstar.
-                    %cite.pull-left.text-left
-                      .client-image.hidden-lg
-                        %img{:alt => "", :src => image_path("feedbacks/client-2.jpg")}/
-                      .client-details
-                        .signature
-                          %img{:alt => "", :src => image_path("feedbacks/signature-2.png")}/
-                        %h6.dark-text Alexander Weiß
-                        .extra-small-text
-                          Founder, TingTong
-                  .q-sign.bottom
-                    ”
-                  .four-lines
-                    .line.red-line-bottom
-                    .line.green-line-bottom
-                    .line.purple-line-bottom
-                    .line.yellow-line-bottom
-          / END SECOND FEEDBACK
-  /
-    \=========================
-    SECTION: FEATURES / WHY SELECT US
-    \==============================
-  %section#section8.features
-    .container
-      / SECTION NUMBER
-      .section-number.centered-number
-        08
-      / SECTION HEADER
-      .section-header
-        %h2 Why Select Us?
-        .sub-heading
-          We understand your requirement and provide quality works.
-      .row.feature-grid.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.red-text
-                %span.icon.icon-graph2
-                / FEATURE ICON
-              %h6
-                Business
-                %br>/
-                Growth
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Success scrum project funding marketing seed money prototype innovator direct hackathon android angel investor.
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.green-text
-                %span.icon.icon-edit
-                / FEATURE ICON
-              %h6
-                Unlimited
-                %br>/
-                Revisions
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Technology founders churn rate niche market long tail release iteration burn rate backing. Churn rate accelerator.
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.purple-text
-                %span.icon.icon-exapnd2
-                / FEATURE ICON
-              %h6
-                Ultimate
-                %br>/
-                Perfection
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Deployment ownership non-disclosure agreement vesting period crowdfunding success influencer partnership.
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.yellow-text
-                %span.icon.icon-display1
-                / FEATURE ICON
-              %h6
-                Smart
-                %br>/
-                Experience
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Success scrum project funding marketing seed money prototype innovator direct hackathon android angel investor.
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.red-text
-                %span.icon.icon-date
-                / FEATURE ICON
-              %h6
-                Strict
-                %br>/
-                Deadline
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Technology founders churn rate niche market long tail release iteration burn rate backing. Churn rate accelerator.
-        / SINGLE FEATURE
-        .col-lg-4.col-md-4.col-sm-4
-          .feature-box.text-left
-            .feature-header
-              .icon.green-text
-                %span.icon.icon-medal
-                / FEATURE ICON
-              %h6
-                Reputed
-                %br>/
-                Company
-              / HEADING
-            / FEATURE DETAILS
-            %p
-              Deployment ownership non-disclosure agreement vesting period crowdfunding success influencer partnership.
-      / CALL TO ACTION
-      .row.cta-bottom
-        .col-lg-12
-          / HEADING
-          %h4.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"} Start your journey with us now
-          / BUTTON
-          %a.btn.btn-default.standard-button.red-button.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30", :href => ""} Get Started
-  /
-    \=========================
-    SECTION: BLOG
-    \==============================
-  %section#section9.blog.bgcolor-2
-    .container
-      / SECTION NUMBER
-      .section-number.centered-number
-        09
-      / SECTION HEADER
-      .section-header
-        %h2 Our Blog
-        .sub-heading
-          We understand your requirement and provide quality works.
-      .row.blog-posts
-        / FEATURED POST
-        .col-lg-6.col-md-6
-          .featured-post.red-line-bottom.white-bg.diffuse-shadow.text-left
-            / FEATURED IMAGE
-            .post-featured-image.dark-gradient-overlay
-              %img{:alt => "Blog featured image", :src => image_path("blog/featured-image.jpg")}/
-            / POST AUTHOR AND DATE
-            .post-info
-              .author.uppercase.red-text.strong
-                Damian Schreiber
-              .date.extra-small-text.white-text
-                December 10, 2015
-            / POST TITLE AND DETAILS
-            .post-content
-              %a{:href => ""}
-                %h5.post-title
-                  Facebook’s CNN livestream will test its place in the second screen era
-              %p
-                Traction seed money infographic accelerator pivot value proposition ownership business-to-consumer iteration market analytics paradigm
-        / REGULAR POSTS
-        .col-lg-6.col-md-6
-          / SINGLE POST
-          .regular-post.green-line-bottom.white-bg.diffuse-shadow.text-left.wow.fadeInUp{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            / AUTHOR AND DATE
-            .post-info
-              .green-text.uppercase
-                Damian Schreiber
-              .date.extra-small-text
-                December 10, 2015
-            / POST TITLE AND DETAILS
-            .post-content
-              %a{:href => ""}
-                %h6.post-title Google Street View adds virtual reality support
-              %div
-                Traction seed money infographic accelerator pivot value proposition ownership business-to-consumer iteration market analytics paradigm
-          / SINGLE POST
-          .regular-post.purple-line-bottom.white-bg.diffuse-shadow.text-left.wow.fadeInUp{"data-wow-delay" => "0.25s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            / AUTHOR AND DATE
-            .post-info
-              .purple-text.uppercase
-                Damian Schreiber
-              .date.extra-small-text
-                December 10, 2015
-            / POST TITLE AND DETAILS
-            .post-content
-              %a{:href => ""}
-                %h6.post-title Google Street View adds virtual reality support
-              %div
-                Traction seed money infographic accelerator pivot value proposition ownership business-to-consumer iteration market analytics paradigm
-          / SINGLE POST
-          .regular-post.yellow-line-bottom.white-bg.diffuse-shadow.text-left.wow.fadeInUp{"data-wow-delay" => "0.35s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-            / AUTHOR AND DATE
-            .post-info
-              .yellow-text.uppercase
-                Damian Schreiber
-              .date.extra-small-text
-                December 10, 2015
-            / POST TITLE AND DETAILS
-            .post-content
-              %a{:href => ""}
-                %h6.post-title Google Street View adds virtual reality support
-              %div
-                Traction seed money infographic accelerator pivot value proposition ownership business-to-consumer iteration market analytics paradigm
-  /
-    \=========================
-    SECTION: SUBSCRIBE FORM
-    \==============================
-  %section.subscribe-section
-    / HEADING
-    %h3.wow.fadeInLeft{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"} Subscribe to Newsletter
-    / SUBSCRIBE FORM
-    %form.subscribe-form.mailchimp.wow.fadeInRight{"data-wow-delay" => "0.15s", "data-wow-duration" => "1.5s", "data-wow-offset" => "30"}
-      %input.input-box.bg-color1{:name => "email", :placeholder => "Enter your email", :type => "email"}/
-      %button.btn.btn-default.standard-button.red-button{:type => "submit"} Subscribe Now
-    / ERROR AND SUCCESS MESSAGE - AUTO GENERATED BY MAILCHIMP
-    .mailchimp-error.red-text
-    .mailchimp-success.green-text
+
   /
     \=========================
     SECTION: CONTACT US
     \==============================
-  %section#section10.get-in-touch
+  %section#contact.get-in-touch
     .container
       / SECTION NUMBER
       .section-number.centered-number
-        10
+        04
       / SECTION HEADER
       .section-header
-        %h2 Get in Touch
+        %h2 联系我们
         .sub-heading
-          We understand your requirement and provide quality works.
-      .row
-        .col-lg-8.col-lg-offset-2
-          / MAIL SUCCESS MESSAGE - ERROR MESSAGE AVAILABLE IN custom.js
-          %h6.success.green-text Your Message Successfuly Sent
-          %h6.error.red-text
-          %form#contact-form.contact-form
-            .row
-              .col-lg-6.col-md-6
-                %input#name.input-field{:name => "name", :placeholder => "Your Name", :type => "text"}/
-              .col-lg-6.col-md-6
-                %input#email.input-field{:name => "email", :placeholder => "Your Email", :type => "email"}/
-              .col-lg-6.col-md-6
-                %input#subject.input-field{:name => "subject", :placeholder => "Subject", :type => "text"}/
-              .col-lg-6.col-md-6
-                %input#budget.input-field{:name => "budget", :placeholder => "Project Budget", :type => "text"}/
-              .col-lg-12
-                %textarea#message.input-field{:name => "message", :placeholder => "Your Message", :rows => "8"}
-              %button.btn.btn-default.standard-button.red-button{:type => "submit"} Send Message
+          合作双赢
+
       / FOOTER
       .row.no-gutters
         .footer.clearfix
@@ -962,17 +279,19 @@
                 / LOGO
           .col-lg-3.col-md-3
             .footer-col
-              %h6.green-text Alexis LLC.
+              %h6.green-text 玉林全客福商贸有限公司
               %p.white-text
-                4125 Brighton Circle Road Little Falls, MN 56345
+                广西玉林农批市场，全客福商贸有限公司
           .col-lg-3.col-md-3
             .footer-col
-              %h6.purple-text Alexis LLC UK.
+              %h6.purple-text 电话
               %p.white-text
-                81 Golden Knowes Road FRESHFIELD L37 6TP
+                +86 0775 2081209
+              %p.white-text
+                +86 13907756736
           .col-lg-3.col-md-3
             .footer-col
-              %h6.yellow-text Alexis LLC UK.
+              %h6.yellow-text 公众账号
               .social-icons
                 %a{:href => ""}
                   %span.icon.icon-sb-facebook
