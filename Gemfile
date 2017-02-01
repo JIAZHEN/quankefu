@@ -10,6 +10,7 @@ gem "sass-rails", "~> 5.0"
 gem "coffee-rails", "~> 4.2"
 gem "bootstrap-sass"
 gem "haml-rails"
+gem "font-awesome-rails"
 
 group :development, :test do
   gem "byebug", platform: :mri

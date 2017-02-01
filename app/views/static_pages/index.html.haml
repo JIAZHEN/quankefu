@@ -24,8 +24,8 @@
               %span.sr-only Toggle navigation
               %span.icon.icon-menu
             / LOGO
-            %a.navbar-brand{:href => "#"}
-              %img{:alt => "LOGO", :src => image_path("logo.png")}/
+            %a.navbar-brand{:href => root_path}
+              %img{:alt => "LOGO", :src => image_path("quankefu-logo.png")}/
           #alexis-navigation.navbar-collapse.collapse
             / NAVIGATION LINK
             %ul#internal-scroll.nav.navbar-nav.navbar-right.main-navigation
@@ -275,7 +275,7 @@
           .col-lg-3.col-md-3
             .footer-col
               .footer-logo
-                %img{:alt => "", :src => image_path("logo-white.png")}/
+                %img{:alt => "", :src => image_path("quankefu-logo.png")}/
                 / LOGO
           .col-lg-3.col-md-3
             .footer-col
@@ -284,23 +284,25 @@
                 广西玉林农批市场，全客福商贸有限公司
           .col-lg-3.col-md-3
             .footer-col
-              %h6.purple-text 电话
+              %h6.purple-text 联系方式
               %p.white-text
                 +86 0775 2081209
               %p.white-text
                 +86 13907756736
+              %p.white-text
+                304086896@qq.com
           .col-lg-3.col-md-3
             .footer-col
               %h6.yellow-text 公众账号
               .social-icons
+                %a{:href => "#jiazhenjoe", :alt => "jiazhenjoe"}
+                  %i.fa.fa-weixin
                 %a{:href => ""}
-                  %span.icon.icon-sb-facebook
-                %a{:href => ""}
-                  %span.icon.icon-sb-twitter
-                %a{:href => ""}
-                  %span.icon.icon-sb-instagram
-                %a{:href => ""}
-                  %span.icon.icon-sb-google-plus
+                  %i.fa.fa-weibo
+                %a{:href => "#304086896", :alt => "304086896"}
+                  %i.fa.fa-qq
+                %a{:href => "#304086896@qq.com", :alt => "304086896@qq.com"}
+                  %i.fa.fa-envelope-o
         .four-lines
           .line.red-line-bottom
           .line.green-line-bottom
