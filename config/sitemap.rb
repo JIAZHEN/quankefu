@@ -1,5 +1,5 @@
 # Set the host name for URL creation
-SitemapGenerator::Sitemap.default_host = "http://quankefu/"
+SitemapGenerator::Sitemap.default_host = "http://quankefu.net/"
 
 SitemapGenerator::Sitemap.public_path = "public/"
 
